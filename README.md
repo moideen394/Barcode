@@ -38,7 +38,7 @@
                     target: document.querySelector('#scanner-container'),
                     constraints: {
                         width: 480,
-                        height: 360,
+                        height: 320,
                         facingMode: "environment"
                     },
                 },
