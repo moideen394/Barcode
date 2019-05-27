@@ -17,7 +17,9 @@
 
 <body>
     <!-- Div to show the scanner -->
-    <div id="scanner-container"></div>
+    <div id="scanner-container">
+    <div style="opacity:0.6"><span>Test file</span></div>
+    </div>
     <input type="button" id="btn" value="Start/Stop the scanner" />
 
     <div id="divResult" style = "display: none">Barcode :<span id="result"></span></div>
