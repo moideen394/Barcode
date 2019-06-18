@@ -39,8 +39,8 @@
                     type: "LiveStream",
                     target: document.querySelector('#scanner-container'),
                     constraints: {
-                        width: 480,
-                        height: 720,
+
+
                         facingMode: "environment"
                     },
                 },
