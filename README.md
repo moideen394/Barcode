@@ -17,7 +17,7 @@
 
 <body>
     <!-- Div to show the scanner -->
-    <div id="scanner-container" style:"height: 690px">
+    <div id="scanner-container">
     <div style="position: absolute;top: 80px;"><span>Test file</span></div>
     </div>
     <input type="button" id="btn" value="Start/Stop the scanner" />
@@ -40,7 +40,7 @@
                     target: document.querySelector('#scanner-container'),
                     constraints: {
                         width: 480,
-                        height: 320,
+                        height: 720,
                         facingMode: "environment"
                     },
                 },
