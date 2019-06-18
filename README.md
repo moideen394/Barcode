@@ -18,7 +18,7 @@
 <body>
     <!-- Div to show the scanner -->
     <div id="scanner-container">
-    <div style="position: absolute;top: 80px;"><span>Test file</span></div>
+    <div style="position: absolute;top: 200px;"><span>Test file</span></div>
     </div>
     <input type="button" id="btn" value="Start/Stop the scanner" />
 
