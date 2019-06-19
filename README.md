@@ -86,7 +86,7 @@
             });
 
             Quagga.onProcessed(function (result) {
-alert(result);
+
                 var drawingCtx = Quagga.canvas.ctx.overlay,
                 drawingCanvas = Quagga.canvas.dom.overlay;
 
@@ -105,7 +105,7 @@ alert(result);
 
 
             Quagga.onDetected(function (result) {
-            	//alert("Barcode value ",result.codeResult.code)
+            	alert("Barcode value ",result.codeResult);
             	console.log("Value ",result.codeResult.code)
                 console.log("Barcode detected and processed : [" + result.codeResult.code + "]", result);
                 document.getElementById("result").innerHTML = result.codeResult.code;
