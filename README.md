@@ -40,7 +40,7 @@
                     type: "LiveStream",
                     target: document.querySelector('#scanner-container'),
                     constraints: {
-
+                        width:360,
 
                         facingMode: "environment"
                     },
