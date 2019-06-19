@@ -86,6 +86,7 @@
             });
 
             Quagga.onProcessed(function (result) {
+alert(result);
                 var drawingCtx = Quagga.canvas.ctx.overlay,
                 drawingCanvas = Quagga.canvas.dom.overlay;
 
