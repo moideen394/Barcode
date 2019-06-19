@@ -17,7 +17,7 @@
 
 <body>
     <!-- Div to show the scanner -->
-    <div id="scanner-container" style="opacity: 0.5;background: #131311a8;width:200px">
+    <div id="scanner-container" style="opacity: 0.5;width:150px">
         <div style=" opacity:0; position: absolute;bottom: 70px;border: 2px solid red;">Testinggggggg</div>
     <div><span>Test file</span></div>
     </div>
